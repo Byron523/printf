@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#ifndef reverse_string
+#undef reverse_string
+#endif
+
 #include <stdarg.h>
 #include <stdlib.h>
 #include <unistd.h>
